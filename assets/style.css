@@ -1,19 +1,26 @@
 body {
-	padding-bottom: 4em;
+	padding-bottom: 6em;
+}
+
+footer .navbar {
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: thick;
+	background-color:  #666666;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }
 
 .container-main {
 	max-width: 960px;
 }
 
-@media screen and (max-width: 768px) {
-	.container-main {
-		max-width: 700px;
-	}
+.img-responsive {
+	display: inline-block;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 980px) {
 	.container-main {
-		max-width: 600px;
+		max-width: 85%;
 	}
 }
