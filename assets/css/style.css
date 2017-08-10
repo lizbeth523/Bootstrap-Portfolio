@@ -1,0 +1,100 @@
+a .navbar-brand {
+	color: #ffffff;
+}
+
+
+body {
+	background-color: #eeeeee;
+	/*background-image: url("../images/sakura.png");*/
+	padding-bottom: 6em;
+}
+
+footer .navbar {
+	border-top-color: #4aaaa5;
+	border-top-style: solid;
+	border-top-width: thick;
+	background-color:  #666666;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+h1 {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	margin-left: 1vw;
+}
+
+h3 {
+	color: #4aaaa5;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	margin-left: 1vw;
+}
+
+header {
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: medium;
+	margin-bottom: 2em;
+}
+
+header .navbar {
+	background-color: #ffffff;
+	margin-bottom: 0;
+}
+
+header .navbar-brand {
+	padding-top: 1.7em;
+}
+
+p {
+	color: #777777;
+}
+
+.container-main {
+	max-width: 960px;
+}
+
+.hdr-row {
+	border-bottom-color: #cccccc;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	margin-bottom: 1em;
+}
+
+.navbar-brand {
+	background-color: #4aaaa5;
+	bottom: 0;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 35px 30px;
+	text-align: center;
+	width: 120%;
+}
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.panel {
+	padding: 0 1vw 0 1vw;
+}
+
+
+/* Change the container-main size for screen sizes <= 980px */
+@media screen and (max-width: 980px) {
+	.container-main {
+		max-width: 85%;
+	}
+
+	.navbar-brand {
+		width: 100%;
+	}
+}

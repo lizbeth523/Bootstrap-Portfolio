@@ -1,0 +1,15 @@
+.desc {
+	background-color: #4aaaa5;
+	bottom: 60px;
+	color: #ffffff;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.img-responsive {
+	display: inline-block;
+}
