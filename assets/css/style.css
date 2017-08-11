@@ -4,8 +4,8 @@ a .navbar-brand {
 
 
 body {
-	background-color: #eeeeee;
-	/*background-image: url("../images/sakura.png");*/
+	/*background-color: #eeeeee;*/
+	background-image: url("../images/sakura.png");
 	padding-bottom: 6em;
 }
 
@@ -57,6 +57,10 @@ p {
 	color: #777777;
 }
 
+.container-hdr {
+	width: 960px;
+}
+
 .container-main {
 	max-width: 960px;
 }
@@ -87,14 +91,25 @@ p {
 	padding: 0 1vw 0 1vw;
 }
 
+.panel .panel-default {
+	display: inline-block;
+}
+
 
 /* Change the container-main size for screen sizes <= 980px */
 @media screen and (max-width: 980px) {
-	.container-main {
+	.container-hdr {
 		max-width: 85%;
 	}
 
+	.container-main {
+		max-width: 85%;
+	}
+}
+
+@media screen and (max-width: 767px) {
 	.navbar-brand {
+		left: 0;
 		width: 100%;
 	}
 }
